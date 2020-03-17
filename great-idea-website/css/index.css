@@ -110,6 +110,10 @@ nav a img.logo {
     right: 10px;
 }
 
+nav a:last-child:hover {
+    background: transparent;
+}
+
 section.main-hero {
 	margin-top: 100px;
 	margin-bottom: 100px;
