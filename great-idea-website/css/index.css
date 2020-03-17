@@ -64,3 +64,64 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+div.half {
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+nav {
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+
+nav a {
+	padding: 12px 20px 0;
+	text-decoration: none;
+	color: #363636;
+}
+
+nav a img.logo {
+	position: absolute;
+	top: -6px;
+	right: 0px;
+}
+
+section.main-hero {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+	height: 340px;
+}
+
+section.main-hero h1 {
+	font-size: 74px;
+	text-align: center;
+	margin-top: 80px;
+}
+
+a.hero-button {
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #363636;
+    padding: 6px 36px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+section.main-hero img {
+    float: right;
+}
+
+hr.divider {
+	border-top: 1px solid black;
+}
