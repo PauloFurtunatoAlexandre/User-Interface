@@ -73,7 +73,15 @@ body {
 div.half {
 	float: left;
 	width: 50%;
+    position: relative;
+    padding: 5px;
+}
+
+div.third {
+	float: left;
+	width: 33%;
 	position: relative;
+	padding: 5px;
 }
 
 nav {
@@ -97,7 +105,7 @@ section.main-hero {
 	margin-top: 100px;
 	margin-bottom: 100px;
 	position: relative;
-	height: 340px;
+	min-height: 340px;
 }
 
 section.main-hero h1 {
@@ -123,6 +131,27 @@ section.main-hero img {
 }
 
 hr.divider {
+	position: relative;
 	border-top: 1px solid black;
 	margin: 60px 0;
+}
+
+img.middle-img {
+	margin: 40px 0;
+    width: 100%;
+}
+
+section.main-content {
+	min-height: 100px;
+}
+
+.content-section .tel {
+	margin: 20px 0;
+}
+
+p.copyright {
+	font-size: 14px;
+    text-align: center;
+    margin: 30px auto 60px;
+    position: relative;
 }
