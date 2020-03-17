@@ -86,7 +86,9 @@ div.third {
 
 nav {
 	margin-bottom: 5%;
-	margin-top: 2%;
+    background: #eee;
+    height: 60px;
+    padding: 20px;
 }
 
 nav a {
@@ -95,10 +97,17 @@ nav a {
 	color: #363636;
 }
 
+nav a:hover {
+    color: #fff;
+    transition: 0.5s ease-out;
+    background: #363636;
+    padding-bottom: 12px;
+}
+
 nav a img.logo {
 	position: absolute;
-	top: -6px;
-	right: 0px;
+	top: 10px;
+    right: 10px;
 }
 
 section.main-hero {
@@ -154,4 +163,9 @@ p.copyright {
     text-align: center;
     margin: 30px auto 60px;
     position: relative;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 }
